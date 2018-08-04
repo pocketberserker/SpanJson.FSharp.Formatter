@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>pocketberserker</Authors>
+    <Owners>pocketberserker</Owners>
+    <PackageProjectUrl>https://github.com/pocketberserker/SpanJson.FSharp.Formatter</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/pocketberserker/SpanJson.FSharp.Formatter/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>SpanJson extensions for F#</Description>
+    <PackageTags>F#;fsharp;json;JSON;Serialization;Formatter;Serializer</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SpanJson" Version="1.2.4" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.5.1" />
+    <PackageReference Include="FSharp.Core" Version="4.5.2" />
+  </ItemGroup>
+</Project>
